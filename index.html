@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    
+    <title>RealSoft Assignment</title>
+</head>
+<body>
+
+    <header class="header">
+        <h1>RealSoft Assignment</h1>
+        <h4>Done by : Mo'men Alshouha</h4>
+        <h6>momenalshouha@outlook.com</h6>
+      </header>
+      <main>
+         <div class="container">
+          <h2>#Method 1: flipp String</h2>
+            <input type="text" name="" id="textToFlip" placeholder="Text" required>
+            <p class="result" id="flippedText"></p>
+            <input class="button" type="submit" value="Flip Text" onclick="flippString()">
+            <input  class="button" type="submit" value="Clear" onclick="document.getElementById('textToFlip').value=''">
+            <br><br>
+            <hr>
+       
+     
+            <h2>#Method 2: How many Times Character appears in a string</h2>
+            <input id="text" type="text" placeholder="Text" required >
+            <input id="character" type="text" placeholder="Character" required>
+            <p class="result" id="countsNumber"></p>
+            <input class="button" type="submit" value="count" onclick="countCharacter()">
+            <br><br>
+        
+            <hr>
+
+            <h2>#Method 3: Takes A String and return number of words in it</h2>
+            <input type="text" name="" id="textToCountWords" placeholder="Text" required>
+            <p class="result" id="numberOFWords"></p>
+            <input class="button" type="submit" value="count" onclick="countWords()">
+            <br><br>
+            
+            <hr>
+
+            <h2>#Method 4: Takes a string of any length and a sorting order (‘A’ for ascending and ‘D’ for descending) and returns the string sorted accordingly. </h2>
+                <input id="textToSort" type="text" placeholder="Text" required >
+                <input id="sortOrder" type="text" placeholder="A (Ascending)    D (Descinding)" required>
+                <p class="result" id="textOrdered"></p>
+                <input  class="button" type="submit" value="Sort" onclick="sortText()">
+            </h2>
+
+            <hr>
+        </div>
+    </main>
+    <script src="index.js"></script>
+   
+</body>
+</html>
